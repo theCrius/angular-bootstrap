@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
-import * as moment from 'moment';
 
 @Component({
   selector: 'app-root',
@@ -9,14 +7,7 @@ import * as moment from 'moment';
 })
 export class AppComponent {
 
-  constructor(
-    private notification: ToastrService
-  ) {}
+  constructor() { }
 
-  title: string;
-  timestamp: moment.Moment;
-
-  ngOnInit(): void {
-    setTimeout(() => this.notification.success('Hey, did you see my pop, Clippy?', 'It has notifications too!'), 1000);
-  }
+  ngOnInit(): void { }
 }

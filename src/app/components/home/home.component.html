@@ -1,0 +1,16 @@
+<div class="starter-template">
+  <h1>Bootstrap starter template</h1>
+  <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  <form class="form-inline">
+    <div class="form-group">
+      <div class="input-group">
+        <input class="form-control" placeholder="dd-mm-yyyy" name="dp" [(ngModel)]="query.onDate" ngbDatepicker #d="ngbDatepicker">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" (click)="d.toggle()" type="button">
+                <fa name="calendar"></fa>
+              </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

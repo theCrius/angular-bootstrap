@@ -1,3 +1,16 @@
+// Custom bootstrap settings
+$enable-shadows: false;
+$enable-gradients: false;
+$spacer: 0.5rem;
+$line-height-lg: 1;
+$line-height-sm: 1;
+$blue: #46A0DE;
+$cyan: #222D71;
+$navbar-padding-y: ($spacer / 4);
+$navbar-padding-x: ($spacer / 2);
+
+// Import bootstrap default variables
 @import "~bootstrap/scss/variables";
 
+// Custom FontAwesome font path
 $fa-font-path : '../../node_modules/font-awesome/fonts';

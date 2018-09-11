@@ -1,11 +1,11 @@
 {
-  "name": "angular-bootstrap",
-  "version": "0.0.0",
+  "name": "Angular-Bootstrap",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --prod --base-href /stipes/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

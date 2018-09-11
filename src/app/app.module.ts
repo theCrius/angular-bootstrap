@@ -13,6 +13,8 @@ import { ToastrModule } from 'ngx-toastr';
 import { MomentModule } from 'ngx-moment';
 
 import { AppComponent } from './app.component';
+import { RoutingModule } from './routing.module';
+
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 
@@ -23,6 +25,7 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     BrowserAnimationsModule,
     CommonModule,
+    RoutingModule,
     MomentModule,
     NgbModule.forRoot(),
     ToastrModule.forRoot({
